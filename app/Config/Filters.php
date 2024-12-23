@@ -113,4 +113,9 @@ class Filters extends BaseFilters
     public array $filters = [
         
     ];
+
+    protected $excludedURIs = [
+    'admin/logout',
+];
+
 }

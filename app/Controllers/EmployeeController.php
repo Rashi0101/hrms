@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\Employee_model;
+use App\Models\UserModel;
 
 class EmployeeController extends BaseController
 {
@@ -13,10 +14,12 @@ class EmployeeController extends BaseController
     public function save_employee()
 {
     $employeeModel = new Employee_model();
+    $userModel = new UserModel();
 
     $validation = \Config\Services::validation();
 
     $validation->setRules([
+        'employee_id' => 'required',
         'name' => 'required|min_length[3]',
         'email' => 'required|valid_email',
         'phone' => 'required|numeric',
@@ -51,7 +54,6 @@ class EmployeeController extends BaseController
         return redirect()->back()->withInput()->with('errors', $validation->getErrors());
     }
 
-    // Process the uploaded file (if it exists)
     $profilePicturePath = session()->getFlashdata('temp_profile_picture') ?: '';
 
     if (!$profilePicturePath) {
@@ -68,11 +70,17 @@ class EmployeeController extends BaseController
         }
     }
 
+    $name = $this->request->getPost('name');
+    $dob = $this->request->getPost('dob');
+    $email = $this->request->getPost('email');
+    $role = $this->request->getPost('role');
+
     $data = [
-        'name' => $this->request->getPost('name'),
-        'email' => $this->request->getPost('email'),
+        'employee_id' => $this->request->getPost('employee_id'),
+        'name' => $name,
+        'email' => $email,
         'phone' => $this->request->getPost('phone'),
-        'dob' => $this->request->getPost('dob'),
+        'dob' => $dob,
         'gender' => $this->request->getPost('gender'),
         'address' => $this->request->getPost('address'),
         'department' => $this->request->getPost('department'),
@@ -80,16 +88,44 @@ class EmployeeController extends BaseController
         'hire_date' => $this->request->getPost('hire_date'),
         'salary' => $this->request->getPost('salary'),
         'status' => $this->request->getPost('status'),
-        'role' => $this->request->getPost('role'),
+        'role' => $role,
         'profile_picture' => $profilePicturePath,
     ];
-
     if ($employeeModel->insert($data)) {
-        session()->setFlashdata('success', 'Employee added successfully!');
-        return redirect()->to('/admin/employee_create');
+            // Create a password for the user based on the employee's name and dob
+            $userPassword = $name . $dob;
+
+            // Prepare user data
+            $userData = [
+                'email' => $email,
+                'password' => password_hash($userPassword, PASSWORD_DEFAULT), 
+                'role' => $role,
+            ];
+
+            // Insert the user data into the users table
+            if ($userModel->insert($userData)) {
+                session()->setFlashdata('success', 'Employee and user added successfully!');
+                return redirect()->to('/admin/employee_create');
+            } else {
+            // Capture any error from userModel insert
+            $error = $userModel->errors();
+            log_message('error', 'User insertion failed: ' . print_r($error, true));
+            session()->setFlashdata('error', 'There was an error saving the user. ' . implode(', ', $error));
+            return redirect()->back()->withInput();
+        }
     } else {
         session()->setFlashdata('error', 'There was an error saving the employee!');
         return redirect()->back()->withInput();
     }
+    
+
+
+    // if ($employeeModel->insert($data)) {
+    //     session()->setFlashdata('success', 'Employee added successfully!');
+    //     return redirect()->to('/admin/employee_create');
+    // } else {
+    //     session()->setFlashdata('error', 'There was an error saving the employee!');
+    //     return redirect()->back()->withInput();
+    // }
 }
 }

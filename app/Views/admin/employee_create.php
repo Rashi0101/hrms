@@ -16,6 +16,9 @@
 
 <form action="<?= base_url('employee_create/save_employee') ?>" method="post" enctype="multipart/form-data">
     <?= csrf_field() ?>
+    <label for="employee_id">Employee Id:</label>
+    <input type="number" name="employee_id" id="employee_id" value="<?= old('employee_id') ?>" required><br><br>
+
     <label for="name">Name:</label>
     <input type="text" name="name" id="name" value="<?= old('name') ?>" required><br><br>
 

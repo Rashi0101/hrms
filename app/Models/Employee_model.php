@@ -10,10 +10,11 @@ class Employee_model extends Model
     protected $table      = 'employees';
 
     // Define the primary key
-    protected $primaryKey = 'id';
+    protected $primaryKey = 'employee_id';
 
     // Define which fields can be inserted/updated
     protected $allowedFields = [
+        'employee_id',
         'name', 
         'email', 
         'phone', 

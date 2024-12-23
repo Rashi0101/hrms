@@ -16,6 +16,8 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
+
+
     public $baseURL = 'http://localhost/newhrms/public/';
     // public $baseURL = 'http://localhost:8080';
 
@@ -145,7 +147,8 @@ class App extends BaseConfig
     // public $sessionSavePath = WRITEPATH . 'session';
     // public $sessionCookieName = 'ci_session';
     // public $sessionExpiration = 7200; // 2 hours
-public $sessionDriver = 'CodeIgniter\Session\Handlers\FileSessionHandler';
+//public $sessionDriver = 'CodeIgniter\Session\Handlers\FileSessionHandler';
+public $sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler';
 public $sessionCookieName = 'ci_session';
 public $sessionExpiration = 7200;  // Set as needed
 public $sessionSavePath = null;

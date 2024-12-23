@@ -19,9 +19,7 @@ class AttendanceController extends BaseController
     } else {
         $data['attendance'] = $allAttendanceRecords;
     }
-
     session_destroy();
-
     return view('admin/attendance', $data);
 }
 
@@ -53,7 +51,7 @@ public function upload()
             //     unlink($filePath);
             //     return redirect()->to('admin/attendance')->with('error', 'Invalid file structure. Headers must be: ' . implode(', ', $expectedHeaders));
             // }
-
+               
             // Remove the header row
             array_shift($data);
 
