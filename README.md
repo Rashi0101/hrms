@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # CodeIgniter 4 Framework
+=======
+# CodeIgniter 4 Application Starter
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 # CodeIgniter 4 Application Starter
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -10,7 +14,11 @@ CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and 
 More information can be found at the [official site](https://codeigniter.com).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 This repository holds the distributable version of the framework.
+=======
+This repository holds a composer-installable app starter.
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 This repository holds a composer-installable app starter.
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -23,7 +31,10 @@ You can read the [user guide](https://codeigniter.com/user_guide/)
 corresponding to the latest version of the framework.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 ## Installation & updates
 
 `composer create-project codeigniter4/appstarter` then `composer update` whenever
@@ -38,6 +49,9 @@ to your `app` folder. The affected files can be copied or merged from
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
 
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 ## Important Change with index.php
 
@@ -60,12 +74,15 @@ This repository is a "distribution" one, built by our release preparation script
 Problems with it can be raised on our forum, or as issues in the main repository.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Contributing
 
 We welcome contributions from the community.
 
 Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
 
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 ## Server Requirements

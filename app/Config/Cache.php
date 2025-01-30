@@ -37,7 +37,10 @@ class Cache extends BaseConfig
     /**
      * --------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      * Cache Directory Path
      * --------------------------------------------------------------------------
      *
@@ -50,6 +53,9 @@ class Cache extends BaseConfig
 
     /**
      * --------------------------------------------------------------------------
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      * Key Prefix
      * --------------------------------------------------------------------------
@@ -90,7 +96,10 @@ class Cache extends BaseConfig
      * File settings
      * --------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      * Your file storage preferences can be specified below, if you are using
@@ -108,7 +117,10 @@ class Cache extends BaseConfig
      * Memcached settings
      * -------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      * Your Memcached servers can be specified below, if you are using

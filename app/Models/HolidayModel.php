@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class HolidayModel extends Model
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $table            = 'holidays';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
@@ -45,9 +46,14 @@ class HolidayModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     protected $table = 'holidays'; // The name of the table in the database
     protected $primaryKey = 'id';  // The primary key
     protected $allowedFields = ['holiday_name', 'holiday_date', 'holiday_day']; // Fields that can be inserted/updated
     protected $useTimestamps = true; // Set this to true if you are using created_at and updated_at columns
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }

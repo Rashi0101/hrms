@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class LeaveModel extends Model
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $table            = 'leaves';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
@@ -56,6 +57,11 @@ public function add($leaveData)
     {
         return $this->insert($leaveData);  
     }
+=======
+    protected $table = 'leaves';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['employee_id', 'leave_type', 'start_date','end_date','reason', 'status'];
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     protected $table = 'leaves';
     protected $primaryKey = 'id';

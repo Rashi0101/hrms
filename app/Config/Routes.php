@@ -7,6 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $routes->group('backend', function ($routes) {
 $routes->get('/', 'Home::index');
 $routes->post('authenticate', 'CoreController::authenticate');
@@ -18,6 +19,8 @@ $routes->post('applyLeave', 'CoreController::applyLeave');
 $routes->get('applyLeave', 'CoreController::applyLeave');
 $routes->post('createEmployee', 'CoreController::createEmployee');
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
 $routes->get('/', 'LoginController::index');  // login page
 $routes->get('/login', 'LoginController::index');  // Login page
@@ -68,11 +71,15 @@ $routes->post('admin/logout', 'AdminController::logout');
 
 
 
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 $routes->get('admin/dashboard', 'CoreController::admindashboard');
 // $routes->get('admin/employee_create','CoreController::create');
@@ -101,6 +108,8 @@ $routes->group('api', function ($routes) {
         $routes->post('example', 'ExampleController::create'); // Protected route
     });
 });
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 

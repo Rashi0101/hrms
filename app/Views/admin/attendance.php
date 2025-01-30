@@ -6,6 +6,7 @@
     <title>Attendance Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <style>
         body {
             background-color: #f8f9fa;
@@ -110,6 +111,11 @@
 <body>
 
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
+</head>
+<body>
+
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 <div class="container mt-5">
     <h1>Attendance Page</h1>
 
@@ -121,6 +127,7 @@
     <?php endif; ?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="mb-3">
         <form action="<?= base_url('/backend/admin/attendance/upload') ?>" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="<?= csrf_token() ?>" value="<?= csrf_hash() ?>">
@@ -130,6 +137,8 @@
         </form>
     </div>
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         <div class="mb-3">
             <form action="<?= base_url('admin/attendance') ?>" method="POST" enctype="multipart/form-data">
                 <label for="excelFile">Upload Excel Sheet:</label>
@@ -137,6 +146,9 @@
                 <button type="submit">Upload</button>
             </form>
         </div>
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     <h3 class="mt-5">Attendance Records</h3>
@@ -151,6 +163,7 @@
             </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <?php if (!empty($attendance)): ?>
             <?php foreach ($attendance as $row): ?>
@@ -226,6 +239,8 @@
 
 
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     <?php if (!empty($attendance)): ?>
         <?php foreach ($attendance as $row): ?>
             <tr>
@@ -244,13 +259,20 @@
 </tbody>
 
     </table>
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 </html>
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

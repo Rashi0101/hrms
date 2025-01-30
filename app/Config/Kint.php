@@ -4,6 +4,10 @@ namespace Config;
 
 use Kint\Parser\ConstructablePluginInterface;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Kint\Renderer\AbstractRenderer;
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 use Kint\Renderer\AbstractRenderer;
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -45,6 +49,10 @@ class Kint
     public string $richTheme = 'aante-light.css';
     public bool $richFolder  = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public int $richSort     = AbstractRenderer::SORT_FULL;
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public int $richSort     = AbstractRenderer::SORT_FULL;
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

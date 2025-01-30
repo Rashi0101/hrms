@@ -1,6 +1,10 @@
 <?php
 use CodeIgniter\HTTP\Header;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Config\Services;
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 use Config\Services;
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -229,7 +233,11 @@ $errorId = uniqid('error', true);
             <!-- Request -->
             <div class="content" id="request">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <?php $request = service('request'); ?>
+=======
+                <?php $request = Services::request(); ?>
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 <?php $request = Services::request(); ?>
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -351,7 +359,11 @@ $errorId = uniqid('error', true);
             <!-- Response -->
             <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $response = service('response');
+=======
+                $response = Services::response();
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 $response = Services::response();
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

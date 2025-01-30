@@ -7,8 +7,13 @@ use CodeIgniter\Config\BaseConfig;
 class Email extends BaseConfig
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $fromEmail  = 'utkarsh@ornatets.com'; // Your email address
     public string $fromName   = 'Ornate TechnoServices'; // Your name or company name
+=======
+    public string $fromEmail  = '';
+    public string $fromName   = '';
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public string $fromEmail  = '';
     public string $fromName   = '';
@@ -24,6 +29,7 @@ class Email extends BaseConfig
      * The mail sending protocol: mail, sendmail, smtp
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $protocol = 'smtp'; // Use SMTP protocol
  
     /**
@@ -31,6 +37,8 @@ class Email extends BaseConfig
      */
     public string $SMTPHost = 'mail.ornatets.com'; 
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     public string $protocol = 'mail';
 
     /**
@@ -42,13 +50,20 @@ class Email extends BaseConfig
      * SMTP Server Hostname
      */
     public string $SMTPHost = '';
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**
      * SMTP Username
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $SMTPUser = 'noreply@ornatets.com'; // Your email username
+=======
+    public string $SMTPUser = '';
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public string $SMTPUser = '';
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -57,7 +72,11 @@ class Email extends BaseConfig
      * SMTP Password
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $SMTPPass = 'NoReOrnate@2023*'; // Your email password
+=======
+    public string $SMTPPass = '';
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public string $SMTPPass = '';
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -66,7 +85,11 @@ class Email extends BaseConfig
      * SMTP Port
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public int $SMTPPort = 465; // Commonly used: 587 (TLS) or 465 (SSL)
+=======
+    public int $SMTPPort = 25;
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public int $SMTPPort = 25;
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -84,15 +107,21 @@ class Email extends BaseConfig
     /**
      * SMTP Encryption.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public string $SMTPCrypto = 'ssl'; // 'tls' or 'ssl'
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      *
      * @var string '', 'tls' or 'ssl'. 'tls' will issue a STARTTLS command
      *             to the server. 'ssl' means implicit SSL. Connection on port
      *             465 should set this to ''.
      */
     public string $SMTPCrypto = 'tls';
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**
@@ -102,10 +131,13 @@ class Email extends BaseConfig
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Type of mail, either 'text' or 'html'
      */
     public string $mailType = 'html'; // Use 'html' for rich text emails
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      * Character count to wrap at
      */
     public int $wrapChars = 76;
@@ -114,6 +146,9 @@ class Email extends BaseConfig
      * Type of mail, either 'text' or 'html'
      */
     public string $mailType = 'text';
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**
@@ -123,7 +158,10 @@ class Email extends BaseConfig
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      * Whether to validate the email address
      */
     public bool $validate = false;
@@ -134,6 +172,9 @@ class Email extends BaseConfig
     public int $priority = 3;
 
     /**
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
      * Newline character. (Use “\r\n” to comply with RFC 822)
      */
@@ -143,6 +184,7 @@ class Email extends BaseConfig
      * Newline character. (Use “\r\n” to comply with RFC 822)
      */
     public string $newline = "\r\n";
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -164,6 +206,8 @@ class Email extends BaseConfig
 //         $mail->send();
 //         return true;
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**
      * Enable BCC Batch Mode.
@@ -180,4 +224,7 @@ class Email extends BaseConfig
      */
     public bool $DSN = false;
 }
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

@@ -51,9 +51,15 @@ if (defined('SHOW_DEBUG_BACKTRACE') && SHOW_DEBUG_BACKTRACE) {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $args = implode(', ', array_map(static fn ($value): string => match (true) {
             is_object($value) => 'Object(' . $value::class . ')',
             is_array($value)  => $value !== [] ? '[...]' : '[]',
+=======
+        $args = implode(', ', array_map(static fn ($value) => match (true) {
+            is_object($value) => 'Object(' . $value::class . ')',
+            is_array($value)  => count($value) ? '[...]' : '[]',
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
         $args = implode(', ', array_map(static fn ($value) => match (true) {
             is_object($value) => 'Object(' . $value::class . ')',

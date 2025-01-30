@@ -4,6 +4,10 @@ namespace Config;
 
 use CodeIgniter\Config\BaseConfig;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use CodeIgniter\Format\FormatterInterface;
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 use CodeIgniter\Format\FormatterInterface;
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -66,7 +70,10 @@ class Format extends BaseConfig
         'text/xml'         => 0,
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**
      * A Factory method to return the appropriate formatter for the given mime type.
@@ -79,5 +86,8 @@ class Format extends BaseConfig
     {
         return Services::format()->getFormatter($mime);
     }
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }

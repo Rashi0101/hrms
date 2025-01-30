@@ -91,7 +91,11 @@ class Autoload extends AutoloadConfig
      * @var list<string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public $helpers = [];
+=======
+    public $helpers = ['url','form'];
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public $helpers = ['url','form'];
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

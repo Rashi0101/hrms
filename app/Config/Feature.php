@@ -11,9 +11,15 @@ class Feature extends BaseConfig
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Use improved new auto routing instead of the legacy version.
      */
     public bool $autoRoutesImproved = true;
+=======
+     * Use improved new auto routing instead of the default legacy version.
+     */
+    public bool $autoRoutesImproved = false;
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
      * Use improved new auto routing instead of the default legacy version.
      */
@@ -33,6 +39,7 @@ class Feature extends BaseConfig
      */
     public bool $limitZeroAsAll = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     /**
      * Use strict location negotiation.
@@ -41,6 +48,8 @@ class Feature extends BaseConfig
      * Enabling strict comparison will also consider the region code (ISO 3166-1 alpha-2).
      */
     public bool $strictLocaleNegotiation = false;
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }

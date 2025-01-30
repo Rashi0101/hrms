@@ -28,9 +28,15 @@ class Database extends Config
         'DSN'          => '',
         'hostname'     => 'localhost',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'username'     => '',
         'password'     => '',
         'database'     => '',
+=======
+        'username'     => 'root',
+        'password'     => 'Rashi',
+        'database'     => 'hrms',
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
         'username'     => 'root',
         'password'     => 'Rashi',
@@ -50,7 +56,10 @@ class Database extends Config
         'port'         => 3306,
         'numberNative' => false,
 <<<<<<< HEAD
+<<<<<<< HEAD
         'foundRows'    => false,
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         'dateFormat'   => [
@@ -75,7 +84,10 @@ class Database extends Config
     //        'foreignKeys' => true,
     //        'busyTimeout' => 1000,
 <<<<<<< HEAD
+<<<<<<< HEAD
     //        'synchronous' => null,
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     //        'dateFormat'  => [

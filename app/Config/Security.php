@@ -84,7 +84,10 @@ class Security extends BaseConfig
      */
     public bool $redirect = (ENVIRONMENT === 'production');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**
      * --------------------------------------------------------------------------
@@ -102,5 +105,8 @@ class Security extends BaseConfig
      * @deprecated `Config\Cookie` $samesite property is used.
      */
     public string $samesite = 'Lax';
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }

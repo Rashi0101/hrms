@@ -137,7 +137,11 @@ class Routing extends BaseRouting
      * Default: false
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public bool $translateUriToCamelCase = true;
+=======
+    public bool $translateUriToCamelCase = false;
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public bool $translateUriToCamelCase = false;
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

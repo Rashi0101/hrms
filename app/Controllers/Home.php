@@ -7,9 +7,14 @@ class Home extends BaseController
     public function index(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return view('login');
     }
     
+=======
+        return view('welcome_message');
+    }
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
         return view('welcome_message');
     }

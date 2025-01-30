@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "2ae413b2a4d5a638d615f099808306f1",
     "packages": [
         {
@@ -48,6 +49,8 @@
                     "Composer\\Pcre\\": "src"
                 }
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     "content-hash": "1728056b241095385265d852af141081",
     "packages": [
         {
@@ -110,12 +113,16 @@
                 "exclude-from-classmap": [
                     "**/Database/Migrations/**"
                 ]
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "authors": [
                 {
@@ -164,6 +171,8 @@
                 "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/c612b0488ae486284c39885efca494c180f16351",
                 "reference": "c612b0488ae486284c39885efca494c180f16351",
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
             "support": {
@@ -185,6 +194,9 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/0f7cb975f4443cf22f33408925c231225cfba8cb",
                 "reference": "0f7cb975f4443cf22f33408925c231225cfba8cb",
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "shasum": ""
             },
@@ -198,6 +210,7 @@
             },
             "require-dev": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "infection/infection": "^0.27.11",
                 "laminas/laminas-coding-standard": "~3.0.1",
                 "maglnet/composer-require-checker": "^3.8.0",
@@ -205,12 +218,17 @@
                 "psalm/plugin-phpunit": "^0.19.0",
                 "vimeo/psalm": "^5.26.1"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "infection/infection": "^0.27.9",
                 "laminas/laminas-coding-standard": "~3.0.0",
                 "maglnet/composer-require-checker": "^3.8.0",
                 "phpunit/phpunit": "^9.6.16",
                 "psalm/plugin-phpunit": "^0.19.0",
                 "vimeo/psalm": "^5.21.1"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
@@ -244,7 +262,11 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-12-17T19:39:54+00:00"
+=======
+            "time": "2024-10-24T10:12:53+00:00"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
             "time": "2024-10-24T10:12:53+00:00"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -436,6 +458,7 @@
         {
             "name": "phpoffice/phpspreadsheet",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "3.9.0",
             "source": {
                 "type": "git",
@@ -451,6 +474,8 @@
             "require": {
                 "composer/pcre": "^3.3",
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "version": "3.6.0",
             "source": {
                 "type": "git",
@@ -464,6 +489,9 @@
                 "shasum": ""
             },
             "require": {
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "ext-ctype": "*",
                 "ext-dom": "*",
@@ -551,9 +579,15 @@
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/3.9.0"
             },
             "time": "2025-01-26T05:10:24+00:00"
+=======
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/3.6.0"
+            },
+            "time": "2024-12-08T15:04:12+00:00"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/3.6.0"
             },
@@ -824,6 +858,7 @@
     ],
     "packages-dev": [
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "clue/ndjson-react",
             "version": "v1.3.0",
@@ -1139,6 +1174,8 @@
         {
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "name": "fakerphp/faker",
             "version": "v1.24.1",
             "source": {
@@ -1202,6 +1239,7 @@
             "time": "2024-11-21T13:46:39+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "fidry/cpu-core-counter",
             "version": "1.2.0",
@@ -1432,6 +1470,8 @@
         {
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "name": "mikey179/vfsstream",
             "version": "v1.6.12",
             "source": {
@@ -1545,6 +1585,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "nexusphp/cs-config",
             "version": "v3.25.1",
             "source": {
@@ -1611,6 +1652,8 @@
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/447a020a1f875a434d62f2a401f53b82a396e494",
                 "reference": "447a020a1f875a434d62f2a401f53b82a396e494",
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "name": "nikic/php-parser",
             "version": "v5.3.1",
             "source": {
@@ -1622,6 +1665,9 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
                 "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "shasum": ""
             },
@@ -1666,9 +1712,15 @@
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.4.0"
             },
             "time": "2024-12-30T11:07:19+00:00"
+=======
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
+            },
+            "time": "2024-10-08T18:51:32+00:00"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
@@ -1796,6 +1848,7 @@
         {
             "name": "phpunit/php-code-coverage",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "11.0.8",
             "source": {
                 "type": "git",
@@ -1807,6 +1860,8 @@
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/418c59fd080954f8c4aa5631d9502ecda2387118",
                 "reference": "418c59fd080954f8c4aa5631d9502ecda2387118",
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "version": "10.1.16",
             "source": {
                 "type": "git",
@@ -1817,6 +1872,9 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/7e308268858ed6baedc8704a304727d20bc07c77",
                 "reference": "7e308268858ed6baedc8704a304727d20bc07c77",
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "shasum": ""
             },
@@ -1824,6 +1882,7 @@
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "nikic/php-parser": "^5.3.1",
                 "php": ">=8.2",
@@ -1839,6 +1898,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.5.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "nikic/php-parser": "^4.19.1 || ^5.1.0",
                 "php": ">=8.1",
                 "phpunit/php-file-iterator": "^4.1.0",
@@ -1852,6 +1913,9 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.1"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "suggest": {
@@ -1862,7 +1926,11 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "11.0.x-dev"
+=======
+                    "dev-main": "10.1.x-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "10.1.x-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -1895,7 +1963,11 @@
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/11.0.8"
+=======
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.16"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.16"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -1906,6 +1978,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-12-11T12:34:27+00:00"
         },
@@ -1929,6 +2002,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2024-08-22T04:31:57+00:00"
         },
         {
@@ -1950,13 +2025,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "5.0-dev"
+=======
+                    "dev-main": "4.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "4.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -1988,7 +2070,11 @@
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
                 "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.1.0"
+=======
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/4.1.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/4.1.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -1999,6 +2085,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-08-27T05:02:59+00:00"
         },
@@ -2023,6 +2110,8 @@
                 "ext-pcntl": "*",
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-08-31T06:24:48+00:00"
         },
         {
@@ -2045,6 +2134,9 @@
             "require-dev": {
                 "ext-pcntl": "*",
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "suggest": {
@@ -2054,7 +2146,11 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "5.0-dev"
+=======
+                    "dev-main": "4.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "4.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2084,8 +2180,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-invoker/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/php-invoker/security/policy",
                 "source": "https://github.com/sebastianbergmann/php-invoker/tree/5.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/php-invoker/tree/4.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/php-invoker/tree/4.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2096,6 +2196,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T05:07:44+00:00"
         },
@@ -2119,6 +2220,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T06:56:09+00:00"
         },
         {
@@ -2140,13 +2243,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-main": "3.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "3.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2177,7 +2287,11 @@
                 "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
                 "security": "https://github.com/sebastianbergmann/php-text-template/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-text-template/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/php-text-template/tree/3.0.1"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/php-text-template/tree/3.0.1"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2188,6 +2302,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T05:08:43+00:00"
         },
@@ -2211,6 +2326,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-08-31T14:07:24+00:00"
         },
         {
@@ -2232,13 +2349,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "7.0-dev"
+=======
+                    "dev-main": "6.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "6.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2268,8 +2392,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-timer/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/php-timer/security/policy",
                 "source": "https://github.com/sebastianbergmann/php-timer/tree/7.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/php-timer/tree/6.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/php-timer/tree/6.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2280,6 +2408,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T05:09:35+00:00"
         },
@@ -2296,6 +2425,8 @@
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/30e319e578a7b5da3543073e30002bf82042f701",
                 "reference": "30e319e578a7b5da3543073e30002bf82042f701",
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T06:57:52+00:00"
         },
         {
@@ -2310,6 +2441,9 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a86773b9e887a67bc53efa9da9ad6e3f2498c132",
                 "reference": "a86773b9e887a67bc53efa9da9ad6e3f2498c132",
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "shasum": ""
             },
@@ -2320,6 +2454,7 @@
                 "ext-mbstring": "*",
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "myclabs/deep-copy": "^1.12.1",
                 "phar-io/manifest": "^2.0.4",
@@ -2342,6 +2477,8 @@
                 "sebastian/version": "^5.0.2",
                 "staabm/side-effects-detector": "^1.0.5"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "myclabs/deep-copy": "^1.12.0",
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
@@ -2362,6 +2499,9 @@
                 "sebastian/recursion-context": "^5.0.0",
                 "sebastian/type": "^4.0.0",
                 "sebastian/version": "^4.0.1"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "suggest": {
@@ -2374,7 +2514,11 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "11.5-dev"
+=======
+                    "dev-main": "10.5-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "10.5-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2410,7 +2554,11 @@
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.3"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.38"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -2429,6 +2577,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2025-01-13T09:36:00+00:00"
         },
@@ -2495,6 +2644,9 @@
 =======
             "time": "2024-10-28T13:06:21+00:00"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
+            "time": "2024-10-28T13:06:21+00:00"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         },
         {
             "name": "psr/container",
@@ -2550,6 +2702,7 @@
             "time": "2021-11-05T16:47:00+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "psr/event-dispatcher",
             "version": "1.0.0",
@@ -3146,6 +3299,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "name": "sebastian/cli-parser",
             "version": "2.0.1",
             "source": {
@@ -3164,13 +3319,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "3.0-dev"
+=======
+                    "dev-main": "2.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "2.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3198,7 +3360,11 @@
                 "issues": "https://github.com/sebastianbergmann/cli-parser/issues",
                 "security": "https://github.com/sebastianbergmann/cli-parser/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/cli-parser/tree/3.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/cli-parser/tree/2.0.1"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/cli-parser/tree/2.0.1"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3209,6 +3375,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T04:41:36+00:00"
         },
@@ -3232,6 +3399,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.5"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2024-03-02T07:12:49+00:00"
         },
         {
@@ -3253,13 +3422,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "3.0-dev"
+=======
+                    "dev-main": "2.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "2.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3286,8 +3462,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/code-unit/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/code-unit/security/policy",
                 "source": "https://github.com/sebastianbergmann/code-unit/tree/3.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/code-unit/tree/2.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/code-unit/tree/2.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3298,6 +3478,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-12-12T09:59:06+00:00"
         },
@@ -3321,6 +3502,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T06:58:43+00:00"
         },
         {
@@ -3342,13 +3525,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-main": "3.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "3.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3374,8 +3564,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/security/policy",
                 "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/3.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/3.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3386,6 +3580,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T04:45:54+00:00"
         },
@@ -3402,6 +3597,8 @@
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/d4e47a769525c4dd38cea90e5dcd435ddbbc7115",
                 "reference": "d4e47a769525c4dd38cea90e5dcd435ddbbc7115",
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T06:59:15+00:00"
         },
         {
@@ -3416,12 +3613,16 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
                 "reference": "a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-mbstring": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "php": ">=8.2",
                 "sebastian/diff": "^6.0",
@@ -3433,19 +3634,28 @@
             "suggest": {
                 "ext-bcmath": "For comparing BcMath\\Number objects"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "php": ">=8.1",
                 "sebastian/diff": "^5.0",
                 "sebastian/exporter": "^5.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.5"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "6.2-dev"
+=======
+                    "dev-main": "5.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "5.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3489,7 +3699,11 @@
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/comparator/tree/6.3.0"
+=======
+                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3500,6 +3714,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2025-01-06T10:28:19+00:00"
         },
@@ -3524,6 +3739,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2024-10-18T14:56:07+00:00"
         },
         {
@@ -3546,13 +3763,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-main": "3.2-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "3.2-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3580,7 +3804,11 @@
                 "issues": "https://github.com/sebastianbergmann/complexity/issues",
                 "security": "https://github.com/sebastianbergmann/complexity/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/complexity/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/complexity/tree/3.2.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/complexity/tree/3.2.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3591,6 +3819,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T04:49:50+00:00"
         },
@@ -3615,6 +3844,8 @@
                 "phpunit/phpunit": "^11.0",
                 "symfony/process": "^4.2 || ^5"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-12-21T08:37:17+00:00"
         },
         {
@@ -3637,13 +3868,20 @@
             "require-dev": {
                 "phpunit/phpunit": "^10.0",
                 "symfony/process": "^6.4"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "6.0-dev"
+=======
+                    "dev-main": "5.1-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "5.1-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3680,7 +3918,11 @@
                 "issues": "https://github.com/sebastianbergmann/diff/issues",
                 "security": "https://github.com/sebastianbergmann/diff/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/diff/tree/6.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/diff/tree/5.1.1"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/diff/tree/5.1.1"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3691,6 +3933,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T04:53:05+00:00"
         },
@@ -3714,6 +3957,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2024-03-02T07:15:17+00:00"
         },
         {
@@ -3735,6 +3980,9 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "suggest": {
@@ -3744,7 +3992,11 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "7.2-dev"
+=======
+                    "dev-main": "6.1-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "6.1-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3776,7 +4028,11 @@
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
                 "security": "https://github.com/sebastianbergmann/environment/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/environment/tree/7.2.0"
+=======
+                "source": "https://github.com/sebastianbergmann/environment/tree/6.1.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/environment/tree/6.1.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3787,6 +4043,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T04:54:44+00:00"
         },
@@ -3803,6 +4060,8 @@
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/3473f61172093b2da7de1fb5782e1f24cc036dc3",
                 "reference": "3473f61172093b2da7de1fb5782e1f24cc036dc3",
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2024-03-23T08:47:14+00:00"
         },
         {
@@ -3817,11 +4076,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/955288482d97c19a372d3f31006ab3f37da47adf",
                 "reference": "955288482d97c19a372d3f31006ab3f37da47adf",
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "php": ">=8.2",
                 "sebastian/recursion-context": "^6.0"
@@ -3829,18 +4092,27 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "php": ">=8.1",
                 "sebastian/recursion-context": "^5.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "6.1-dev"
+=======
+                    "dev-main": "5.1-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "5.1-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3887,7 +4159,11 @@
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/exporter/tree/6.3.0"
+=======
+                "source": "https://github.com/sebastianbergmann/exporter/tree/5.1.2"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/exporter/tree/5.1.2"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3898,6 +4174,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-12-05T09:17:50+00:00"
         },
@@ -3924,6 +4201,8 @@
                 "ext-dom": "*",
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2024-03-02T07:17:12+00:00"
         },
         {
@@ -3948,13 +4227,20 @@
             "require-dev": {
                 "ext-dom": "*",
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "7.0-dev"
+=======
+                    "dev-main": "6.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "6.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3984,7 +4270,11 @@
                 "issues": "https://github.com/sebastianbergmann/global-state/issues",
                 "security": "https://github.com/sebastianbergmann/global-state/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/global-state/tree/7.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/global-state/tree/6.0.2"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/global-state/tree/6.0.2"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -3995,6 +4285,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T04:57:36+00:00"
         },
@@ -4019,6 +4310,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2024-03-02T07:19:19+00:00"
         },
         {
@@ -4041,13 +4334,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "3.0-dev"
+=======
+                    "dev-main": "2.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "2.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4075,7 +4375,11 @@
                 "issues": "https://github.com/sebastianbergmann/lines-of-code/issues",
                 "security": "https://github.com/sebastianbergmann/lines-of-code/security/policy",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/lines-of-code/tree/3.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/2.0.2"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/lines-of-code/tree/2.0.2"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4086,6 +4390,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T04:58:38+00:00"
         },
@@ -4111,6 +4416,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-12-21T08:38:20+00:00"
         },
         {
@@ -4134,13 +4441,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "6.0-dev"
+=======
+                    "dev-main": "5.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "5.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4166,8 +4480,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/object-enumerator/security/policy",
                 "source": "https://github.com/sebastianbergmann/object-enumerator/tree/6.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/5.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/object-enumerator/tree/5.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4178,6 +4496,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T05:00:13+00:00"
         },
@@ -4201,6 +4520,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T07:08:32+00:00"
         },
         {
@@ -4222,13 +4543,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-main": "3.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "3.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4254,8 +4582,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-reflector/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/object-reflector/security/policy",
                 "source": "https://github.com/sebastianbergmann/object-reflector/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/object-reflector/tree/3.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/object-reflector/tree/3.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4266,6 +4598,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T05:01:32+00:00"
         },
@@ -4289,6 +4622,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T07:06:18+00:00"
         },
         {
@@ -4310,13 +4645,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "6.0-dev"
+=======
+                    "dev-main": "5.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "5.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4350,8 +4692,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/recursion-context/security/policy",
                 "source": "https://github.com/sebastianbergmann/recursion-context/tree/6.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/5.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/recursion-context/tree/5.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4362,6 +4708,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-07-03T05:10:34+00:00"
         },
@@ -4385,6 +4732,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T07:05:40+00:00"
         },
         {
@@ -4406,13 +4755,20 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "5.1-dev"
+=======
+                    "dev-main": "4.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "4.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4439,8 +4795,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/type/security/policy",
                 "source": "https://github.com/sebastianbergmann/type/tree/5.1.0"
+=======
+                "source": "https://github.com/sebastianbergmann/type/tree/4.0.0"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/type/tree/4.0.0"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4451,6 +4811,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-09-17T13:12:04+00:00"
         },
@@ -4471,6 +4832,8 @@
             "require": {
                 "php": ">=8.2"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "time": "2023-02-03T07:10:45+00:00"
         },
         {
@@ -4489,13 +4852,20 @@
             },
             "require": {
                 "php": ">=8.1"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "5.0-dev"
+=======
+                    "dev-main": "4.0-dev"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     "dev-main": "4.0-dev"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4522,8 +4892,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/version/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/version/security/policy",
                 "source": "https://github.com/sebastianbergmann/version/tree/5.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/version/tree/4.0.1"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 "source": "https://github.com/sebastianbergmann/version/tree/4.0.1"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -4534,6 +4908,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2024-10-09T05:16:32+00:00"
         },
@@ -4684,6 +5059,9 @@
 =======
             "time": "2023-02-07T11:34:05+00:00"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
+            "time": "2023-02-07T11:34:05+00:00"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4705,6 +5083,7 @@
             "type": "library",
             "extra": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "thanks": {
                     "url": "https://github.com/symfony/contracts",
                     "name": "symfony/contracts"
@@ -4712,12 +5091,17 @@
                 "branch-alias": {
                     "dev-main": "3.5-dev"
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 "branch-alias": {
                     "dev-main": "3.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
                     "url": "https://github.com/symfony/contracts"
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 }
             },
@@ -4762,6 +5146,7 @@
             "time": "2024-09-25T14:20:29+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "symfony/event-dispatcher",
             "version": "v7.2.0",
@@ -5885,6 +6270,8 @@
         {
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             "name": "theseer/tokenizer",
             "version": "1.2.3",
             "source": {
@@ -5938,6 +6325,7 @@
     "aliases": [],
     "minimum-stability": "stable",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
@@ -5948,6 +6336,8 @@
     },
     "platform-dev": {},
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
@@ -5955,6 +6345,9 @@
         "php": "^8.1"
     },
     "platform-dev": [],
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     "plugin-api-version": "2.6.0"
 }

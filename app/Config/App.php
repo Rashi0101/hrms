@@ -17,13 +17,19 @@ class App extends BaseConfig
      * E.g., http://example.com/
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $baseURL = 'http://localhost:8080/';
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
 
     public $baseURL = 'http://localhost/newhrms/public/';
     // public $baseURL = 'http://localhost:8080';
 
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**
@@ -143,7 +149,10 @@ class App extends BaseConfig
      */
     public string $appTimezone = 'UTC';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     //public $sessionExpiration = 60; 
     public $sessionTimeToUpdate = 60;
     //public $sessionDriver = 'CodeIgniter\Session\Handlers\DatabaseHandler';
@@ -158,6 +167,9 @@ public $sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler';
 public $sessionCookieName = 'ci_session';
 public $sessionExpiration = 7200;  // Set as needed
 public $sessionSavePath = null;
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     /**

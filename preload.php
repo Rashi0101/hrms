@@ -87,7 +87,11 @@ class preload
                 $fullTree,
                 '/.+((?<!Test)+\.php$)/i',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 RecursiveRegexIterator::GET_MATCH,
+=======
+                RecursiveRegexIterator::GET_MATCH
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 RecursiveRegexIterator::GET_MATCH
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

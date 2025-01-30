@@ -3,7 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd"
 <<<<<<< HEAD
+<<<<<<< HEAD
     bootstrap="system/Test/bootstrap.php"
+=======
+    bootstrap="vendor/codeigniter4/framework/system/Test/bootstrap.php"
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     bootstrap="vendor/codeigniter4/framework/system/Test/bootstrap.php"
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

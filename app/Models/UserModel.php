@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class UserModel extends Model
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $table            = 'users';
     protected $primaryKey       = 'emp_id';
     protected $useAutoIncrement = true;
@@ -108,6 +109,8 @@ class UserModel extends Model
     }
 }
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     protected $table = 'users';
     protected $primaryKey = 'id';
     protected $allowedFields = ['email', 'password','role'];
@@ -115,4 +118,7 @@ class UserModel extends Model
     protected $returnType = 'array'; 
 }
 
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

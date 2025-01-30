@@ -11,6 +11,7 @@
             background-color: #f8f9fa;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -51,6 +52,8 @@
             margin-left: 220px;
             padding: 20px;
         }
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         .dashboard-header {
@@ -107,6 +110,7 @@
 </head>
 <body>
 <<<<<<< HEAD
+<<<<<<< HEAD
  <!-- Sidebar -->
     <div class="sidebar">
         <div>
@@ -125,6 +129,9 @@
             <a href="<?= site_url('Home/logout') ?>">Logout</a>
         </div>
     </div>
+=======
+
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -152,17 +159,23 @@
             <h2>Admin Dashboard</h2>
             <ul>
 <<<<<<< HEAD
+<<<<<<< HEAD
                
                 <li><a href="<?= base_url('backend/admin/employee_create') ?>">Employee Creation</a></li>
                 <li><a href="<?= base_url('backend/admin/leaves') ?>">Leaves</a></li>
                 <li><a href="<?= base_url('backend/admin/holiday') ?>">Holiday List</a></li>
                 <li><a href="<?= base_url('backend/admin/employee_view') ?>">Employee List</a></li>
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 <li><a href="<?= base_url('admin/attendance') ?>">Attendance</a></li>
                 <li><a href="<?= base_url('admin/employee_create') ?>">Employee Creation</a></li>
                 <li><a href="<?= base_url('admin/leaves') ?>">Leaves</a></li>
                 <li><a href="<?= base_url('admin/holiday') ?>">Holiday List</a></li>
                 <li><a href="<?= base_url('admin/employeeview') ?>">Employee List</a></li>
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
             </ul>
         </div>
@@ -182,7 +195,11 @@
 
             // Send AJAX request to the server to fetch matching data
 <<<<<<< HEAD
+<<<<<<< HEAD
             fetch(/admin/search_employees?query=${searchInput})
+=======
+            fetch(`/admin/search_employees?query=${searchInput}`)
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
             fetch(`/admin/search_employees?query=${searchInput}`)
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -212,7 +229,11 @@
             document.getElementById('suggestions').style.display = 'none';
             // Optionally, navigate to the employee page or perform any other action
 <<<<<<< HEAD
+<<<<<<< HEAD
             window.location.href = /admin/employeeview/${employee.id}/edit; // Replace with actual employee edit URL
+=======
+            window.location.href = `/admin/employeeview/${employee.id}/edit`; // Replace with actual employee edit URL
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
             window.location.href = `/admin/employeeview/${employee.id}/edit`; // Replace with actual employee edit URL
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -226,7 +247,11 @@
                     return response.json(); // Parse the JSON response
                 } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     throw new Error(HTTP error! Status: ${response.status});
+=======
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                     throw new Error(`HTTP error! Status: ${response.status}`);
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -235,7 +260,11 @@
             .then(data => {
                 if (data.status === 'success') {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 window.location.href = '/newhrms/public/'; // Adjust the URL to include /newhrms/public/
+=======
+                window.location.href = '/newhrms/public/'; // Adjust the URL to include `/newhrms/public/`
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 window.location.href = '/newhrms/public/'; // Adjust the URL to include `/newhrms/public/`
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -246,7 +275,11 @@
             .catch(error => {
                 console.error('Error during logout:', error);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 alert(An error occurred: ${error.message});
+=======
+                alert(`An error occurred: ${error.message}`);
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
                 alert(`An error occurred: ${error.message}`);
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -258,7 +291,11 @@
     </script>
 </body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 </html>
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

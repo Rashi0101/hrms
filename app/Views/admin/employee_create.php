@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -224,6 +225,8 @@
 </body>
 </html>
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 <?php if (session()->getFlashdata('success')): ?>
     <div style="color: green;">
         <?= session()->getFlashdata('success'); ?>
@@ -306,4 +309,7 @@
         alert('Please reselect the profile picture before resubmitting.');
     }
 </script>
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

@@ -9,6 +9,7 @@ class AttendanceModel extends Model
     protected $table      = 'attendance';
     protected $primaryKey = 'id';
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $allowedFields = ['emp_id', 'check_in','check_out','duration','Date'];
 
     public function get_all_attendance()
@@ -17,6 +18,8 @@ class AttendanceModel extends Model
         return $this->findAll();
     }
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     protected $allowedFields = ['employee_id', 'check_in','check_out','duration','Date'];
 
    public function get_all_attendance()
@@ -24,6 +27,9 @@ class AttendanceModel extends Model
     return $this->db->table('attendance')->get()->getResult(); 
 }
 
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     public function insert_attendance($data)
@@ -31,6 +37,7 @@ class AttendanceModel extends Model
         return $this->insert($data);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function get_attendance_by_employee_and_date($emp_id, $date)
     {
@@ -123,10 +130,15 @@ class AttendanceModel extends Model
         return ['newRecords' => $newRecords, 'invalidRows' => $invalidRows];
     }
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     public function get_attendance_by_employee_and_date($employee_id, $date)
     {
         return $this->where('employee_id', $employee_id)->where('Date', $date)->first();
     }
 
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }

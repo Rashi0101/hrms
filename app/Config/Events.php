@@ -45,15 +45,21 @@ Events::on('pre_system', static function (): void {
     if (CI_DEBUG && ! is_cli()) {
         Events::on('DBQuery', 'CodeIgniter\Debug\Toolbar\Collectors\Database::collect');
 <<<<<<< HEAD
+<<<<<<< HEAD
         service('toolbar')->respond();
         // Hot Reload route - for framework use on the hot reloader.
         if (ENVIRONMENT === 'development') {
             service('routes')->get('__hot-reload', static function (): void {
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         Services::toolbar()->respond();
         // Hot Reload route - for framework use on the hot reloader.
         if (ENVIRONMENT === 'development') {
             Services::routes()->get('__hot-reload', static function (): void {
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
                 (new HotReloader())->run();
             });

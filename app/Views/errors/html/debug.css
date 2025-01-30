@@ -42,7 +42,10 @@ p.lead {
     background: var(--light-bg-color);
     color: var(--dark-text-color);
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 2.17rem;
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }
@@ -70,6 +73,7 @@ p.lead {
 
 .environment {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: var(--brand-primary-color);
     color: var(--main-bg-color);
     text-align: center;
@@ -78,10 +82,15 @@ p.lead {
     margin-top: -2.14rem;
     position: fixed;
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     background: var(--dark-bg-color);
     color: var(--light-text-color);
     text-align: center;
     padding: 0.2rem;
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }
 

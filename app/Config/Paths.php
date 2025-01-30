@@ -13,11 +13,14 @@ namespace Config;
  *
  * All paths are relative to the project's root folder.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * NOTE: This class is required prior to Autoloader instantiation,
  *       and does not extend BaseConfig.
  *
  * @immutable
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
  */
@@ -32,7 +35,11 @@ class Paths
      * the path if the folder is not in the same directory as this file.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public string $systemDirectory = __DIR__ . '/../../system';
+=======
+    public string $systemDirectory = __DIR__ . '/../../vendor/codeigniter4/framework/system';
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     public string $systemDirectory = __DIR__ . '/../../vendor/codeigniter4/framework/system';
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26

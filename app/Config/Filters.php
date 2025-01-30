@@ -25,6 +25,12 @@ class Filters extends BaseFilters
      * or [filter_name => [classname1, classname2, ...]]
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 
 
@@ -41,7 +47,12 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
         'csrfAuth'      => \App\Filters\CsrfAuthFilter::class,
+=======
+        'auth'          => \App\Filters\Auth::class,
+        'noauth'        => \App\Filters\Noauth::class,
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
         'auth'          => \App\Filters\Auth::class,
         'noauth'        => \App\Filters\Noauth::class,
@@ -92,6 +103,11 @@ class Filters extends BaseFilters
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
     
 
@@ -121,8 +137,11 @@ class Filters extends BaseFilters
      * @var array<string, array<string, list<string>>>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public array $filters = [];
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     public array $filters = [
         
     ];
@@ -131,5 +150,8 @@ class Filters extends BaseFilters
     'admin/logout',
 ];
 
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }

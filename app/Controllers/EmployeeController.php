@@ -2,11 +2,14 @@
 
 namespace App\Controllers;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 public function save_employee()
 {
     $employeeModel = new Employee_model();
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 use App\Models\Employee_model;
 use App\Models\UserModel;
 
@@ -21,12 +24,19 @@ class EmployeeController extends BaseController
 {
     $employeeModel = new Employee_model();
     $userModel = new UserModel();
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 
     $validation = \Config\Services::validation();
 
     $validation->setRules([
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'employee_id' => 'required',
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
         'employee_id' => 'required',
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
@@ -65,7 +75,10 @@ class EmployeeController extends BaseController
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Process the uploaded file (if it exists)
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 =======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     $profilePicturePath = session()->getFlashdata('temp_profile_picture') ?: '';
@@ -85,12 +98,15 @@ class EmployeeController extends BaseController
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     $data = [
         'name' => $this->request->getPost('name'),
         'email' => $this->request->getPost('email'),
         'phone' => $this->request->getPost('phone'),
         'dob' => $this->request->getPost('dob'),
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     $name = $this->request->getPost('name');
     $dob = $this->request->getPost('dob');
     $email = $this->request->getPost('email');
@@ -102,6 +118,9 @@ class EmployeeController extends BaseController
         'email' => $email,
         'phone' => $this->request->getPost('phone'),
         'dob' => $dob,
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         'gender' => $this->request->getPost('gender'),
         'address' => $this->request->getPost('address'),
@@ -111,6 +130,7 @@ class EmployeeController extends BaseController
         'salary' => $this->request->getPost('salary'),
         'status' => $this->request->getPost('status'),
 <<<<<<< HEAD
+<<<<<<< HEAD
         'role' => $this->request->getPost('role'),
         'profile_picture' => $profilePicturePath,
     ];
@@ -119,6 +139,8 @@ class EmployeeController extends BaseController
         session()->setFlashdata('success', 'Employee added successfully!');
         return redirect()->to('/admin/employee_create');
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
         'role' => $role,
         'profile_picture' => $profilePicturePath,
     ];
@@ -144,15 +166,21 @@ class EmployeeController extends BaseController
             session()->setFlashdata('error', 'There was an error saving the user. ' . implode(', ', $error));
             return redirect()->back()->withInput();
         }
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     } else {
         session()->setFlashdata('error', 'There was an error saving the employee!');
         return redirect()->back()->withInput();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
+=======
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
     
 
 
@@ -164,5 +192,8 @@ class EmployeeController extends BaseController
     //     return redirect()->back()->withInput();
     // }
 }
+<<<<<<< HEAD
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
+=======
 >>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
 }
