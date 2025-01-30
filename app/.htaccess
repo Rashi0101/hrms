@@ -1,0 +1,17 @@
+<IfModule authz_core_module>
+	Require all denied
+</IfModule>
+<IfModule !authz_core_module>
+	Deny from all
+</IfModule>
+<<<<<<< HEAD
+=======
+<FilesMatch "\.(jpg|png|gif|css|js|woff2|ttf)$">
+    Require all granted
+</FilesMatch>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+>>>>>>> 850ee1497789adeffdc38680989f18a9f64a3c26
